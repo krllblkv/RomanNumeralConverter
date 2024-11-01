@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    
+    <title>ROMAN NUMERAL CONVERTER</title>
+  </head>
+  <body>
+    <main>
+
+      <h1>🏛️ ROMAN 🏛️ NUMERAL CONVERTER</h1>
+      <form id="form" class="form">
+        <fieldset>
+          <label for="number">ENTER a NUMBER:</label><br />
+          <input type="number" id="number" required />
+          <button type="button" id="convert-btn">CONVERT</button>
+        </fieldset>
+      </form>
+      <div id="output" class="output hidden"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
